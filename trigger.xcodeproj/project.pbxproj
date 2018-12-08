@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AA3A533621ACA13100159B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A533521ACA13100159B6A /* AppDelegate.swift */; };
-		AA3A533821ACA13100159B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A533721ACA13100159B6A /* ViewController.swift */; };
 		AA3A533B21ACA13100159B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3A533921ACA13100159B6A /* Main.storyboard */; };
 		AA3A533E21ACA13100159B6A /* trigger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA3A533C21ACA13100159B6A /* trigger.xcdatamodeld */; };
 		AA3A534021ACA13100159B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3A533F21ACA13100159B6A /* Assets.xcassets */; };
 		AA3A534321ACA13100159B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3A534121ACA13100159B6A /* LaunchScreen.storyboard */; };
+		AA3A534B21ACA63F00159B6A /* AddTagCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A534A21ACA63F00159B6A /* AddTagCategoryViewController.swift */; };
+		AA3A535221ACAAC100159B6A /* TagCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A534E21ACAAC100159B6A /* TagCategory+CoreDataClass.swift */; };
+		AA3A535421ACAAC100159B6A /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A535021ACAAC100159B6A /* Tag+CoreDataClass.swift */; };
+		AA3A535A21ACAC6F00159B6A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A535921ACAC6F00159B6A /* CoreDataStack.swift */; };
+		AA3A535C21ACAC9900159B6A /* TagTableViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A535B21ACAC9900159B6A /* TagTableViewController .swift */; };
+		AA3A535E21ACACAF00159B6A /* TagCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A535D21ACACAF00159B6A /* TagCategoryTableViewController.swift */; };
+		AA3A536021ACACCA00159B6A /* AddTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A535F21ACACCA00159B6A /* AddTagViewController.swift */; };
+		AA7ED72421B88621004EFE5F /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED72221B88621004EFE5F /* Tag+CoreDataProperties.swift */; };
+		AA7ED72521B88621004EFE5F /* TagCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED72321B88621004EFE5F /* TagCategory+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA3A533221ACA13100159B6A /* trigger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trigger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3A533521ACA13100159B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA3A533721ACA13100159B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA3A533A21ACA13100159B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA3A533D21ACA13100159B6A /* trigger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = trigger.xcdatamodel; sourceTree = "<group>"; };
 		AA3A533F21ACA13100159B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3A534221ACA13100159B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA3A534421ACA13100159B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3A534A21ACA63F00159B6A /* AddTagCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagCategoryViewController.swift; sourceTree = "<group>"; };
+		AA3A534E21ACAAC100159B6A /* TagCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TagCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA3A535021ACAAC100159B6A /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA3A535921ACAC6F00159B6A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		AA3A535B21ACAC9900159B6A /* TagTableViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TagTableViewController .swift"; sourceTree = "<group>"; };
+		AA3A535D21ACACAF00159B6A /* TagCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCategoryTableViewController.swift; sourceTree = "<group>"; };
+		AA3A535F21ACACCA00159B6A /* AddTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagViewController.swift; sourceTree = "<group>"; };
+		AA7ED72221B88621004EFE5F /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AA7ED72321B88621004EFE5F /* TagCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TagCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		AA3A533421ACA13100159B6A /* trigger */ = {
 			isa = PBXGroup;
 			children = (
-				AA3A533521ACA13100159B6A /* AppDelegate.swift */,
-				AA3A533721ACA13100159B6A /* ViewController.swift */,
-				AA3A533921ACA13100159B6A /* Main.storyboard */,
-				AA3A533F21ACA13100159B6A /* Assets.xcassets */,
-				AA3A534121ACA13100159B6A /* LaunchScreen.storyboard */,
+				AA3A535621ACAB2B00159B6A /* Generated Class Files */,
 				AA3A534421ACA13100159B6A /* Info.plist */,
+				AA3A534A21ACA63F00159B6A /* AddTagCategoryViewController.swift */,
+				AA3A535D21ACACAF00159B6A /* TagCategoryTableViewController.swift */,
+				AA3A535B21ACAC9900159B6A /* TagTableViewController .swift */,
+				AA3A535F21ACACCA00159B6A /* AddTagViewController.swift */,
+				AA3A535921ACAC6F00159B6A /* CoreDataStack.swift */,
+				AA3A533921ACA13100159B6A /* Main.storyboard */,
+				AA3A533521ACA13100159B6A /* AppDelegate.swift */,
+				AA3A534121ACA13100159B6A /* LaunchScreen.storyboard */,
 				AA3A533C21ACA13100159B6A /* trigger.xcdatamodeld */,
+				AA3A533F21ACA13100159B6A /* Assets.xcassets */,
 			);
 			path = trigger;
+			sourceTree = "<group>";
+		};
+		AA3A535621ACAB2B00159B6A /* Generated Class Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA3A534E21ACAAC100159B6A /* TagCategory+CoreDataClass.swift */,
+				AA7ED72221B88621004EFE5F /* Tag+CoreDataProperties.swift */,
+				AA7ED72321B88621004EFE5F /* TagCategory+CoreDataProperties.swift */,
+				AA3A535021ACAAC100159B6A /* Tag+CoreDataClass.swift */,
+			);
+			path = "Generated Class Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA3A533821ACA13100159B6A /* ViewController.swift in Sources */,
+				AA3A535E21ACACAF00159B6A /* TagCategoryTableViewController.swift in Sources */,
+				AA3A535221ACAAC100159B6A /* TagCategory+CoreDataClass.swift in Sources */,
+				AA3A534B21ACA63F00159B6A /* AddTagCategoryViewController.swift in Sources */,
+				AA3A535C21ACAC9900159B6A /* TagTableViewController .swift in Sources */,
+				AA3A535A21ACAC6F00159B6A /* CoreDataStack.swift in Sources */,
 				AA3A533E21ACA13100159B6A /* trigger.xcdatamodeld in Sources */,
+				AA7ED72421B88621004EFE5F /* Tag+CoreDataProperties.swift in Sources */,
+				AA7ED72521B88621004EFE5F /* TagCategory+CoreDataProperties.swift in Sources */,
+				AA3A535421ACAAC100159B6A /* Tag+CoreDataClass.swift in Sources */,
+				AA3A536021ACACCA00159B6A /* AddTagViewController.swift in Sources */,
 				AA3A533621ACA13100159B6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
